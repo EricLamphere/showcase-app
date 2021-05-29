@@ -1,6 +1,9 @@
-### Title:    Census App: Server
-### Author:   Eric Lamphere (ericjlamphere@gmail.com)
-### Time:     2020-11-28 16:33:09
+# DESCRIPTION
+# -- Description: Census App: Server
+# -- Author:      Eric Lamphere (ericjlamphere@gmail.com)
+# -- Created:     Sat May 29 10:36:08 2021
+# -- References:
+# -- >
 
 
 # Define server logic required to draw a histogram

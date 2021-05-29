@@ -1,6 +1,10 @@
-### Title:    Census App: UI
-### Author:   Eric Lamphere (ericjlamphere@gmail.com)
-### Time:     2020-11-28 16:33:09
+# DESCRIPTION
+# -- Description: Census App: UI
+# -- Author:      Eric Lamphere (ericjlamphere@gmail.com)
+# -- Created:     Sat May 29 10:34:53 2021
+# -- References:
+# -- >
+
 
 
 # Define UI for application that draws a histogram
