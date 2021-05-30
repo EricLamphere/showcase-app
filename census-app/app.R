@@ -6,9 +6,11 @@
 # -- >  Census Data: https://api.census.gov/data.html
 # -- >  Getting Started with Census API: https://cran.r-project.org/web/packages/censusapi/vignettes/getting-started.html
 
-# renv::install("EricLamphere/ezverse")
-library(ezverse); library(tidyverse)
-library(shiny); library(censusapi)
+# remotes::install_github("EricLamphere/ezverse")
+library(ezverse)
+library(tidyverse)
+library(shiny)
+library(censusapi)
 
 if ("CENSUS_KEY" %notin% Sys.getenv()) {
   cli::cli_alert_danger("Missing CENSUS_KEY in .Renviron")
