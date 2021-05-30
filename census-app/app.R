@@ -6,7 +6,7 @@
 # -- >  Census Data: https://api.census.gov/data.html
 # -- >  Getting Started with Census API: https://cran.r-project.org/web/packages/censusapi/vignettes/getting-started.html
 
-devtools::install_github("EricLamphere/ezverse");
+# renv::install("EricLamphere/ezverse")
 library(ezverse); library(tidyverse)
 library(shiny); library(censusapi)
 
