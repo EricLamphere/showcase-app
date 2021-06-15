@@ -12,7 +12,7 @@ library(tidyverse)
 library(shiny)
 library(censusapi)
 
-if ("CENSUS_KEY" %notin% Sys.getenv()) {
+if (Sys.getenv("CENSUS_KEY") == "") {
   cli::cli_alert_danger("Missing CENSUS_KEY in .Renviron")
   stop("Must have a census API key in .Renviron: https://api.census.gov/data/key_signup.html")
 }
